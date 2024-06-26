@@ -49,13 +49,19 @@ let customers = [
         },
         12
     ],
-    {},
+    "vimal",
     {},
     {},
     {}
 ]
 
-console.log(customers);
+
+
+console.log(customers[2]);
+
+customers[2].forEach(nameObj => {
+    console.log(nameObj.name);
+})
 
 
 
