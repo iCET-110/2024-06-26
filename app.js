@@ -27,6 +27,35 @@
 
 // console.log(customer01.getName());
 
-let randomNumber = Math.floor((Math.random()*10)+1);
-console.log(randomNumber);
+// let randomNumber = Math.floor((Math.random()*10)+1);
+// console.log(randomNumber);
+
+let customers = [
+    {
+        name:"saman",
+        age:12,
+        address:"gamapaha"
+    },
+    12,
+    [
+        {
+            name:"wimal"
+        },
+        {
+            name:"kamal"
+        },
+        {
+            name:"sunil"
+        },
+        12
+    ],
+    {},
+    {},
+    {},
+    {}
+]
+
+console.log(customers);
+
+
 
